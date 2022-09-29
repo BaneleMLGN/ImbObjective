@@ -1,0 +1,67 @@
+
+:root {
+    --main-color:#04a7d9;
+    --text-color:#040607;
+    --text-colorr:#0e1113;
+    --want-color:#051420;
+    --extra-color:rgb(53, 53, 75);
+    --bg-color:#fff;
+   }
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.blog-container .box{
+    flex: 1 1 13rem;
+    padding: 20px;
+}
+.blog-container .box:hover{
+    background: #c0d9e4;
+}
+.blog-container .box span{
+    font-size: 0.8rem;
+    color: var(--main-color);
+}
+.heading h2{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.blog-container h2{
+    font-size: 1.2rem;
+    
+}
+.blog-container .box .blog-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    color: var(--text-color);
+}
+.blog-container .box .blog-btn:hover{
+    color: var(--main-color);
+    column-gap: 0.7rem;
+    transition: 0.4s;
+}
+.blog-container .box img{
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    overflow: hidden;
+    align-items: center;
+}
+.blog-container .box img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+.about-text h1{
+    font-size: medium;
+    text-align: center;
+}
+.about-text h2{
+    text-align: center;
+}
+.about-text span{
+ color: #04a7d9;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css"/>
+<body>
+
+    <section class="businesses" id="businesses">
+    <div class="businesses-container container">
+        <div class="box" >
+            <img src="bussermina.jpg" alt="" ><a href=""></a>
+            <h2>Name Of Event</h2>
+        </div>   
+    </div>
+        <div class="about-text">
+            <span>Date</span>
+            <h2>Making It Easy For Businesses To Connect With Investors.</h2>
+            <h2>Finding Investors Is Hard, But It Doesn't Have To Be That Way.
+            At <span>INVESTMYBIZ</span> We Afford Businesses The Time To Continue Working On Their Product,
+            While We Talk To Potential Investors For Them.</h2>
+            
+        </div>
+        <!-- About Button -->
+        <!-- <a href="#" class="btn">More Information</a> -->
+    </section>
+
+
+    <section class="about container" id="about">
+        <div class="businesses-container container">
+            <div class="box" >
+                <img src="sembus.jpg" alt="" ><a href=""></a>
+                <h2>Name Of Event</h2>
+            </div>   
+        </div>
+        <div class="about-text">
+            <span>Date</span>
+            <h2>Making It Easy For Businesses To Connect With Investors.</h2>
+            <h2>Finding Investors Is Hard, But It Doesn't Have To Be That Way.
+            At <span>INVESTMYBIZ</span> We Afford Businesses The Time To Continue Working On Their Product,
+            While We Talk To Potential Investors For Them.</h2>
+            
+        </div>
+        <!-- About Button -->
+        <!-- <a href="#" class="btn">More Information</a> -->
+    </section>
+</body>
+</html>
